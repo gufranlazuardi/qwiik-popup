@@ -5,6 +5,7 @@ body {
   align-items: center;
   height: 100vh;
   justify-content: center;
+  cursor: url("pencil.svg"), auto;
 }
 
 /* ===================== main / button ===================== */
@@ -47,7 +48,8 @@ body {
   border-radius: 5px;
   text-align: center;
   width: auto;
-  border-radius: 10px;
+  border-radius: 20px;
+  border: 1px solid black;
   width: 100%;
   box-sizing: border-box;
 }
@@ -58,7 +60,12 @@ body {
   align-items: center;
   background-color: #ffcfcf;
   width: 100%;
+  height: 100%;
   box-sizing: border-box;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-top-left-radius: 20px;  /* Top-left corner */
+  border-top-right-radius: 20px; /* Top-right corner */
 }
 
 .red-close {
