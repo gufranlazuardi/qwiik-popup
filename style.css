@@ -17,6 +17,11 @@ body {
   cursor: pointer;
   border-radius: 5px;
   font-size: 12px;
+  transition: transform 0.3s;
+}
+
+.button:hover{
+ transform: scale(1.05);
 }
 
 /* ===================== popup ===================== */
